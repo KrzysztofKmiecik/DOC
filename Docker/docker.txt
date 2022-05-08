@@ -17,7 +17,7 @@ docker rmi Image Image
 
 docker ps -a
 
-docker run --name postgresql-dev -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres
+docker run --name postgresql-dev -p 5433:5432 -e POSTGRES_PASSWORD=postgres -d postgres
 
 https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
 
